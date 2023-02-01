@@ -1,0 +1,149 @@
+<a href="mailto:someone@example.com">Send email</a>
+<button onclick="document.location='default.asp'">HTML Tutorial</button>
+
+
+<p><a href="#C10">Jump to Chapter 10</a></p>
+<h2 id="C10">Chapter 10</h2>
+
+
+<img src="img_girl.jpg" alt="Girl in a jacket" style="width:500px;height:600px;">
+<img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600">
+
+
+<map> element is used to create an image map, and is linked to the image by using the required name attribute:
+<img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+<map name="workmap">
+  <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+  <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+  <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
+</map>
+
+
+
+
+<head>
+  <title>My Page Title</title>
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+</head>
+
+There are two display values: block and inline.
+
+
+<video width="320" height="240" controls>
+  <source src="movie.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+Your browser does not support the video tag.
+</video>
+
+<audio controls>...</audio>
+
+
+Result	Description	Entity Name	Entity Number	Try it
+non-breaking space	&nbsp;	&#160;	
+<	less than	&lt;	&#60;	
+>	greater than	&gt;	&#62;	
+&	ampersand	&amp;	&#38;	
+"	double quotation mark	&quot;	&#34;	
+'	single quotation mark (apostrophe)	&apos;	&#39;	
+¢	cent	&cent;	&#162;	
+£	pound	&pound;	&#163;	
+¥	yen	&yen;	&#165;	
+€	euro	&euro;	&#8364;	
+©	copyright	&copy;	&#169;	
+®	registered trademark	&reg;	&#174;	
+
+
+
+Latitudes are horizontal lines that measure distance north or south of the equator.
+Longitudes are vertical lines that measure east or west of the meridian in Greenwich, England. Together, latitude and longitude enable cartographers, geographers and others to locate points or places on the globe.
+
+
+
+<marquee bgcolor = "red">
+
+horizontal ruler
+
+The unordered or bulleted list in HTML is used to display the elements in a bulleted format. Mainly, there are three types of an unordered list: disc, circle, and square.
+
+Which of the following is the correct way to create a list using the lowercase letters?
+
+<ol alpha = "a" >
+<ol type = "a">
+<ol letter = "a">
+None of the above
+Hide Answer Workspace
+Answer: (b) <ol type = "a">
+
+Explanation: The type attribute is used with the <ol> tag to specify the type of list items.
+
+
+Which of the following is the correct way to start an ordered list with the count of numeric value 4?
+
+<ol type = "1" initial = "4">
+<ol type = "1" begin = "4">
+<ol type = "1" num = "4">
+<ol type = "1" start = "4">
+Hide Answer Workspace
+Answer: (d) <ol type = "1"  start = "4">
+
+Explanation: The start attribute is used with the <ol> tag to specify where to start the list items.
+
+
+36) Which of the following tag is used to create a combo box (or drop-down box)?
+
+<list>
+<select>
+<input type = "dropdown">
+<ul>
+
+=======================================================================================================
+
+There are two ways to set up an environment for successful ReactJS application. They are given below.
+
+Using the npm command
+Using the create-react-app command
+
+npm (Node Package Manager)
+npx create-react-app my-react-app
+
+ES6 stands for ECMAScript 6.
+
+hello = function() {
+  return "Hello World!";
+}
+
+With Arrow Function:
+hello = () => {
+  return "Hello World!";
+}
+
+Arrow Functions Return Value by Default:
+hello = () => "Hello World!";
+
+hello = val => "Hello " + val;
+
+
+
+function myVehicle({ model, registration: { state } }) 
+
+const numbersOne = [1, 2, 3];
+const numbersTwo = [4, 5, 6];
+const numbersCombined = [...numbersOne, ...numbersTwo];
+
+
+two types of exports: Named and Default.
+you can only have one default export in a file.
+
+Import from named exports
+Import named exports from the file person.js:
+
+import { name, age } from "./person.js";
+
+Import from default exports
+Import a default export from the file message.js:
+
+import message from "./message.js";
+
+
+
+React renders HTML to the web page by using a function called ReactDOM.render().
